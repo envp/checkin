@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     $('button').button();
     /* Core logic. */
-    $(document).keydown(function(key) {
+    $(document).keyup(function(key) {
         switch(key)
             case '13':
                 $('#add').click();

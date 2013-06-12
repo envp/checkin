@@ -14,6 +14,9 @@ $(document).ready(function() {
         switch(key)
             case '13':
                 $('#add').click();
+                break;
+            default:
+                break;
     });
     
     $('#add').click(function() {

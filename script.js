@@ -11,10 +11,15 @@ $(document).ready(function() {
     
     $('button').button();
     /* Core logic. */
-    $(document).keyup(function(event){
-        if(event.keyCode == 13){
-            $("#add").click();
-        }
+     $(document).keyup(function(key) {
+         switch(key)
+             case '13':
+                 $('#add').click();
+                 break;
+             default:
+                 break;
+
+
     });
     
     $('#add').click(function() {

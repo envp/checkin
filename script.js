@@ -5,18 +5,21 @@
 * =====================================
 */
 $(document).ready(function() {
-    var cnt=0;
+    var cnt = 0;
+    var key = event.keyCode;
     /* Aesthetics only. */
     
     $('button').button();
     /* Core logic. */
-    $(document).keyup(function(key) {
-        switch(key)
-            case '13':
-                $('#add').click();
-                break;
-            default:
-                break;
+     $(document).keyup(function(key) {
+         switch(key)
+             case '13':
+                 $('#add').click();
+                 break;
+             default:
+                 break;
+
+
     });
     
     $('#add').click(function() {

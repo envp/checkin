@@ -14,7 +14,7 @@ button {
     padding:0.15em;
     margin: 0 0.15em 0.15em 0.15em;
     background:rgb(238,238,238)!important;
-	transition: 0.3s ease-in background, 0.3s color;
+    transition: 0.3s ease-out background, 0.3s color;
 }
 h3 {
     margin-top:0;
